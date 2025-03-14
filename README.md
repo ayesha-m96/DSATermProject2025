@@ -88,9 +88,9 @@ Therefore, by analyzing data related to car accidents, I believe we can uncover 
 
  # Tools and Technologies <a name="tat"></a>
  - To be able to effectively analyse the data above, I will make use of the following tools:
-    - Python → The primary programming language for managing datasets, conducting statistical analyses, and running models, utilizing platforms like Google Colab or Visual Studio Code.
-    - Pandas →  A crucial tool for data preprocessing, filtering, and transforming data to derive meaningful insights.
-    - Matplotlib & Seaborn → Used for creating visualizations such as graphs, heatmaps, and trend charts to explore and understand the relationships between variables.
+    - Python: The primary programming language for managing datasets, conducting statistical analyses, and running models, utilizing platforms like Google Colab or Visual Studio Code.
+    - Pandas:  A crucial tool for data preprocessing, filtering, and transforming data to derive meaningful insights.
+    - Matplotlib & Seaborn: Used for creating visualizations such as graphs, heatmaps, and trend charts to explore and understand the relationships between variables.
 
 # Limitations and Future Work <a name="lafw"></a>
 ## Limitations
