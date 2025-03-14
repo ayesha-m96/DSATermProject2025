@@ -29,6 +29,7 @@ Ayesha Musharaf - 33617
 - Determine which factors are most strongly related to fatal car accidents.
 - Use maps, bar charts, and scatter plots to visualize relationships between variables.
 - Utilize data cleaning, merging, statistical analysis, and visualization techniques to find meaningful conclusions
+- Use machine learning models and data science skills to assist me with the analysis accordingly.
 
 # Motivation <a name="moti"></a>
 <p align="justify"> For me, this project was generally driven by a strong desire to understand and address the rate of fatal accidents on roads, so I specifically chose to work on datasets based in the United States. Every year, thousands of lives are tragically lost in accidents that could be prevented with a better understanding of the contributing factors. These fatalities not only result in immeasurable loss for communities but also place a significant burden on public health systems, emergency services, and the economy.
