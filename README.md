@@ -9,9 +9,7 @@ Ayesha Musharaf - 33617
 4. [Datasets](#datase)
 5. [Hypothesis](#hypo)
 6. [Dataset Analysis Plan](#dap)
-    - Data Collection
-    - Data Preprocessing
-    - Exploratory Data Analysis
+7. Tools and Technologies (#tat)
 8. [Limitations and Future Work](#lafw)
 9. [Conclusion](#conc)
 
@@ -64,13 +62,13 @@ Ayesha Musharaf - 33617
 - Vehicles per Capita per State
 
 **Data Integration**
-- Merge the datasets by state to create a unified dataset for analysing
+- Merge the datasets by state to create a unified dataset for analysis
 - Ensure consistent state naming conventions and handle missing data
 
-## Data Preproccessing
+## Data Preprocessing
 **Data Cleaning**
 - Handle Missing Values by removing them or imputation
-- Standardize units and formats acorss datasets
+- Standardize units and formats across datasets
 
 **Feature Engineering**
 - Create derived variables
@@ -81,17 +79,23 @@ Ayesha Musharaf - 33617
   - Summarize and visualize individual variables
   - Use histograms, box plots, and summary statistics
 - **Bivariate Analysis:**
-  - Explore relationships between fatal car accidents and each independant variables
-  - Use scatter plots, correlation matriices, and grouped bar charts
+  - Explore relationships between fatal car accidents and each independent variables
+  - Use scatter plots, correlation matrices, and grouped bar charts
 - **Multivariate Analysis:**
-  - Examine interations between multiple variables
-  - Use heatmaps and grouped vizualizations
+  - Examine interactions between multiple variables
+  - Use heatmaps and grouped visualizations
+
+ # Tools and Technologies <a name="tat"></a>
+ - To be able to effectively analyse the data above, I will make use of the following tools:
+    - Python → The primary programming language for managing datasets, conducting statistical analyses, and running models, utilizing platforms like Google Colab or Visual Studio Code.
+    - Pandas →  A crucial tool for data preprocessing, filtering, and transforming data to derive meaningful insights.
+    - Matplotlib & Seaborn → Used for creating visualizations such as graphs, heatmaps, and trend charts to explore and understand the relationships between variables.
 
 # Limitations and Future Work <a name="lafw"></a>
 ## Limitations
 ### Data Quality and Availability
 - **Missing Data:** Some states may have incomplete or missing data for certain variables.
-- **Inconsistent Reporting:** Differnces in how states report fatal accidents could introduce bias.
+- **Inconsistent Reporting:** Differences in how states report fatal accidents could introduce bias.
 
 ### Causation
 - **Reverse Causality:** For example, states with higher accident rates might implement stricter speed limits, creating a misleading relationship.
@@ -99,9 +103,9 @@ Ayesha Musharaf - 33617
 ### Bias in Self-Reported Data
 - **Alcohol Consumption:** Alcohol Consumption data may not account for illegal or unreported drinking.
 
-## Future Work
+## Future Directions for the Current Objective
 - Incorporate additional variables, such as weather conditions, traffic density, and distracted driving statistics.
 - Expand the scope to include local-level data for more granular analyses.
 
-# Conclusion <a name="conc"></a>
-<p align="justify"> This project aims to identify key factors influencing fatal car accidents across U.S. states by analyzing datasets on speed limits, alcohol consumption, road quality, vehicle inspections, seat belt usage, and vehicles per ccapita. Using exploratory data analysis, hypothesis testing, and statistical modeling, it will explore correlations between these variables and fatal accident rates, providing insights to improve road safety. </p>
+# Expected Outcomes <a name="conc"></a>
+<p align="justify"> This project aims to identify key factors influencing fatal car accidents across U.S. states by analyzing datasets on speed limits, alcohol consumption, road quality, vehicle inspections, seat belt usage, and vehicles per capita. Using exploratory data analysis, hypothesis testing, and statistical modelling, it will explore correlations between these variables and fatal accident rates, providing insights that will hopefully aid in improving road safety. </p>
