@@ -3,20 +3,23 @@ DSATermProject
 Ayesha Musharaf - 33617
 
 # Contents
-1. [Project Overview](https://github.com/ayesha-m96/DSATermProject2025/edit/main/README.md#project-overview)
-2. [Research Questions and Objectives](https://github.com/ayesha-m96/DSATermProject2025/edit/main/README.md#research-questions-and-objectives)
-3. [Motivation](https://github.com/ayesha-m96/DSATermProject2025/edit/main/README.md#motivation)
-4. [Datasets](https://github.com/ayesha-m96/DSATermProject2025/edit/main/README.md#datasets)
-5. [Hypothesis](https://github.com/ayesha-m96/DSATermProject2025/edit/main/README.md#hypothesis)
-6. [Dataset Analysis Plan](https://github.com/ayesha-m96/DSATermProject2025/edit/main/README.md#dataset-analysis-plan)
-7. [Limitations and Future Work](https://github.com/ayesha-m96/DSATermProject2025/edit/main/README.md#limitations-and-future-work)
-8. [Conclusion](https://github.com/ayesha-m96/DSATermProject2025/edit/main/README.md#conclusion)
+1. [Project Overview](#Proj-Overview)
+2. [Research Questions and Objectives](#rqao)
+3. [Motivation]
+4. [Datasets]
+5. [Hypothesis]
+6. [Dataset Analysis Plan]
+7. [Limitations and Future Work]
+8. [Conclusion]
 
-# Project Overview
+
+<a name="Proj-Overview"></a>
+# Project Overview 
 <p align="justify"> This project aims to analyze the factors contributing to fatal car accidents in United States by looking at the relationships between fatal car accidents in the United States and various other factors. The primary dataset "Fatal Car Accidents by State" will serve as the dependent variable, while the other datasets will act as independant variables. The goal is to find out the correlation of factors in order of assosiation. </p>
 <p align="justify"> Using Statistical analysis and data vizualization techniques, the project will explore trends across states, helping find an inference vetween the factors. Additionally, conclusion of this project should help with transportation authorities to use the data to reduce fatal car accidents and improve road safety. </p>
 
-# Research Questions and Objectives
+<a name="rqao"></a>
+# Research Questions and Objectives 
 ### Research Questions
 - Which Factors have the strongest correlation with fatal car accidents in the United States?
 - Are there regional patterns in fatal car accidents?
