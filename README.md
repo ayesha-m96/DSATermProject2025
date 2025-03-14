@@ -31,7 +31,8 @@ Ayesha Musharaf - 33617
 - Utilize data cleaning, merging, statistical analysis, and visualization techniques to find meaningful conclusions
 
 # Motivation <a name="moti"></a>
-<p align="justify"> For me, this project is motivated by a desire to understand the very high rate of fatal accidents in the United States. Many lives are lost each year due to accidents that can be prevented. It is key to identify and analyse these factors that can help with the prevention of such accidents. </p>
+<p align="justify"> For me, this project was generally driven by a strong desire to understand and address the rate of fatal accidents on roads, and I specifically chose to work on datasets based in the United States. Every year, thousands of lives are tragically lost in accidents that could be prevented with a better understanding of the contributing factors. These fatalities not only result in immeasurable loss for communities but also place a significant burden on public health systems, emergency services, and the economy.
+Therefore, by analyzing data related to car accidents, I believe we can uncover patterns and identify key risk factors—This knowledge is crucial for developing targeted interventions, improving public safety policies, and implementing more effective preventive measures. It is vital that we explore these variables in order to make informed decisions that could save lives, and create safer road environments for all.
 
 # Datasets <a name="datase"></a>
 <p align="justify"> This section provides a concise overview of the datasets used in the analysis, including their descriptions, to highlight their relevance to the study of fatal car accidents. </p>
