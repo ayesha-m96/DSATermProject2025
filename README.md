@@ -1,5 +1,5 @@
 DSATermProject
-# Identifying State-Level Corelates of Car Fatalaties in U.S. States
+# Identifying State-Level Correlates of Car Fatalities in U.S. States.
 Ayesha Musharaf - 33617
 
 # Contents
