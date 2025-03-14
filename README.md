@@ -9,7 +9,7 @@ Ayesha Musharaf - 33617
 4. [Datasets](#datase)
 5. [Hypothesis](#hypo)
 6. [Dataset Analysis Plan](#dap)
-7. Tools and Technologies (#tat)
+7. [Tools and Technologies](#tat)
 8. [Limitations and Future Work](#lafw)
 9. [Conclusion](#conc)
 
@@ -48,8 +48,8 @@ Therefore, by analyzing data related to car accidents, I believe we can uncover 
 | Population by State | State-level data on population rankings across the U.S. |
 
 # Hypothesis <a name="hypo"></a>
-- Null Hypothesis (H₀): There is no significant relationship between fatal car accidents and other factors such as speed limits, alcohol consumption, road quality, vehicle inspection requirements, seat belt usage, and vehicle capita across U.S states.
-- Alternate Hypothesis (H₁): At least 1 factor has a significant relationship with fatal car accident rates across U.S. states such as speed limits, alcohol consumption, road quality, vehicle inspections, seat belt usage, or vehicles per capita across U.S. states.
+- **Null Hypothesis (H₀):** There is no significant relationship between fatal car accidents and other factors such as speed limits, alcohol consumption, road quality, vehicle inspection requirements, seat belt usage, and vehicle capita across U.S states.
+- **Alternate Hypothesis (H₁):** At least 1 factor has a significant relationship with fatal car accident rates across U.S. states such as speed limits, alcohol consumption, road quality, vehicle inspections, seat belt usage, or vehicles per capita across U.S. states.
 
 # Dataset Analysis Plan <a name="dap"></a>
 ## Data Collection
