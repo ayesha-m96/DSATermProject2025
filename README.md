@@ -43,10 +43,10 @@ Therefore, by analyzing data related to car accidents, I believe we can uncover 
 | Fatal Car Accidents by State | State-level data on fatal car accidents in the U.S. |
 | Speed Limits by State  | State-level data on maximum speed limits for highways and roads across the U.S. |
 | Alcohol Consumption by State | State-level data on per capita alcohol consumption |
-| Seat Belt Use by State | State and territory-level Data on Seat Belt Usage Rates in the U.S. |
+| Seat Belt Use by State | State and Territory-Level Data on Seat Belt Usage Rates in the U.S. |
 | Road Quality by State | State-level data on road quality metrics across the U.S. |
 | States Without Vehicle Inspection | State-level data on vehicle safety inspection requirements across the U.S. |
-| Population by State | State-level data on population rankings across the U.S. |
+| Vehicle Ownership per Capita by State | State-Level Data on Vehicles per Capita Across the U.S. |
 
 # Hypothesis <a name="hypo"></a>
 - **Null Hypothesis (H₀):** There is no significant relationship between fatal car accidents and other factors such as speed limits, alcohol consumption, road quality, vehicle inspection requirements, seat belt usage, and vehicle capita across U.S states.
