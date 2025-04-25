@@ -38,15 +38,15 @@ Therefore, by analyzing data related to car accidents, I believe we can uncover 
 # Datasets <a name="datase"></a>
 <p align="justify"> This section provides a concise overview of the datasets used in the analysis, including their descriptions, to highlight their relevance to the study of fatal car accidents. </p>
 
-| Dataset  | Description |
-| ------------- | ------------- |
-| Fatal Car Accidents by State | State-level data on fatal car accidents in the U.S. |
-| Speed Limits by State  | State-level data on maximum speed limits for highways and roads across the U.S. |
-| Alcohol Consumption by State | State-level data on per capita alcohol consumption |
-| Seat Belt Use by State | State and Territory-Level Data on Seat Belt Usage Rates in the U.S. |
-| Road Quality by State | State-level data on road quality metrics across the U.S. |
-| States Without Vehicle Inspection | State-level data on vehicle safety inspection requirements across the U.S. |
-| Vehicle Ownership per Capita by State | State-Level Data on Vehicles per Capita Across the U.S. |
+| Dataset  | Description | Link |
+| ------------- | ------------- | --------------- | 
+| Fatal Car Accidents by State | State-level data on fatal car accidents in the U.S. | [Dataset 1](https://worldpopulationreview.com/state-rankings/fatal-car-accidents-by-state) [Dataset 2](https://wisevoter.com/state-rankings/fatal-car-accidents-by-state/) |
+| Speed Limits by State  | State-level data on maximum speed limits for highways and roads across the U.S. | [Dataset 1](https://worldpopulationreview.com/state-rankings/speed-limits-by-state) |
+| Alcohol Consumption by State | State-level data on per capita alcohol consumption | [Dataset 1](https://worldpopulationreview.com/state-rankings/alcohol-consumption-by-state) |
+| Seat Belt Use by State | State and Territory-Level Data on Seat Belt Usage Rates in the U.S. | [Dataset 1](https://crashstats.nhtsa.dot.gov/Api/Public/ViewPublication/813615) |
+| Road Quality by State | State-level data on road quality metrics across the U.S. | [Dataset 1](https://worldpopulationreview.com/state-rankings/road-quality-by-state) |
+| States Without Vehicle Inspection | State-level data on vehicle safety inspection requirements across the U.S. | [Dataset 1](https://worldpopulationreview.com/state-rankings/states-without-vehicle-inspection) |
+| Vehicle Ownership per Capita by State | State-Level Data on Vehicles per Capita Across the U.S. | [Dataset 1](https://www.fhwa.dot.gov/policyinformation/statistics/2022/mv1.cfm) [Dataset 2](https://www.fhwa.dot.gov/policyinformation/statistics/2023/pdf/mv1.pdf) |
 
 # Hypothesis <a name="hypo"></a>
 - **Null Hypothesis (H₀):** There is no significant relationship between fatal car accidents and other factors such as speed limits, alcohol consumption, road quality, vehicle inspection requirements, seat belt usage, and vehicle capita across U.S states.
