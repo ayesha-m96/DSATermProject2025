@@ -11,7 +11,8 @@ Ayesha Musharaf - 33617
 6. [Dataset Analysis Plan](#dap)
 7. [Tools and Technologies](#tat)
 8. [Limitations and Future Work](#lafw)
-9. [Conclusion](#conc)
+9. [Expected Outcomes](#conc)
+10. [Analysis of Research](#aor)
 
 # Project Overview <a name="Proj-Overview"></a>
 <p align="justify"> This project aims to analyze the factors contributing to fatal car accidents in the United States by looking at the relationships between fatal car accidents in the United States and various other factors. The primary dataset "Fatal Car Accidents by State" will serve as the dependent variable, while the other datasets will act as independent variables. The goal is to find out the correlation of factors in order of association. </p>
@@ -109,13 +110,13 @@ Therefore, by analyzing data related to car accidents, I believe we can uncover 
 - Incorporate additional variables, such as weather conditions, traffic density, and distracted driving statistics.
 - Expand the scope to include local-level data for more granular analyses.
 
-# Expected Outcomes <a name="conc"></a>
+## Expected Outcomes <a name="conc"></a>
 <p align="justify"> This project aims to identify key factors influencing fatal car accidents across U.S. states by analysing datasets on speed limits, alcohol consumption, road quality, vehicle inspections, seat belt usage, and vehicles per capita. Using exploratory data analysis, hypothesis testing, and statistical modelling, it will explore correlations between these variables and fatal accident rates, providing insights that will hopefully aid in improving road safety. </p>
 
-# Analysis of Research
+# Analysis of Research <a name="aor"></a>
 Following the compilation of the dataset, we explore the relationships between various factors through visualisation and conduct hypothesis testing across multiple dimensions.
 
-##  otherTotal Fatal Car Accidents by State (2022–2023)
+##  Total Fatal Car Accidents by State (2022–2023)
 ![newplot](https://github.com/user-attachments/assets/34324d85-55ba-49e3-9fdd-b15c7f626fc9)
 This map shows the total fatal car accidents in the U.S. States (2022-2023), highlighting key regional patterns.
 - High fatalities are concentrated in large, populous states like Texas, California, and Florida, likely due to more vehicles, longer road networks, and denser traffic.
@@ -134,6 +135,41 @@ The map highlights regional differences in traffic fatalities and points to area
 - At the lower end of the scale, Massachusetts, Rhode Island, and New Jersey report the lowest fatality rates in both years
 
 This comparison enables a more precise identification of patterns and changes in road fatalities over time, independent of state size or total crash volume.
+
+## Correlation Analysis of Car Accident Factors
+
+To begin the analysis, we first test our main hypothesis by examining the relationships between fatal car accidents and various potential influencing factors. Additionally, we explore the correlations between other key variables related to car accidents. This initial step helps identify which factors are most closely associated with fatalities and may warrant further investigation.
+
+**Hypothesis**
+
+> Null Hypothesis (H₀): There is no significant relationship between fatal car accident rates and factors such as speed limits, alcohol consumption, road quality, vehicle inspection requirements, seatbelt usage, or the number of vehicles per capita across U.S. states.
+
+> Alternative Hypothesis (H₁): At least one of these factors — speed limits, alcohol consumption, road quality, vehicle inspection requirements, seatbelt usage, or vehicles per capita — has a significant relationship with fatal car accident rates across U.S. states.
+
+![Correlation Matrix](https://github.com/user-attachments/assets/b80cba0c-a3e3-4499-a88d-b8cafe99741f)
+
+**Analysis Based on the Correlation Matrix**
+- TotalDeaths_2022_2023 is highly positively correlated with both Automobiles_2022 and Automobiles_2023 (r ≈ 0.94). This strong association suggests that the number of vehicles in a state is closely tied to the total number of traffic-related deaths. However, this is partially expected, as vehicle count is used in calculating related fatality metrics.
+- DeathPercentage_2022 and DeathPercentage_2023 show moderate negative correlations with Seatbelt Usage (r ≈ -0.16 to -0.19), implying that states with higher seatbelt usage tend to have lower fatality rates relative to population. Lets check this with the pear
+
+### Seatbelt Usage vs Car Accident Deaths (2022 & 2023)
+| Year | Variable Pair                           | Correlation Type | Correlation Coefficient (r) | p-value   | Significant?                |
+|------|------------------------------------------|------------------|-----------------------------|-----------|-----------------------------|
+| 2022 | Seatbelt Usage vs Death Percentage       | Pearson          | -0.1828                     | 0.20391   | No (fail to reject H₀)      |
+| 2023 | Seatbelt Usage vs Death Percentage       | Pearson          | -0.1561                     | 0.27913   | No (fail to reject H₀)      |
+
+
+According to the pearson test however, for both year cases (2022 and 2023) the null hypothesis fails to be rejected here.
+
+### Additional Correlation Insights according to the correlation matrix above
+- Alcohol Fatalities % (2022 and 2023) exhibit strong positive correlations with Ethanol per Capita (r ≈ 0.43–0.48), suggesting that higher alcohol consumption is associated with more alcohol-related car fatalities. While relevant, these metrics are not directly part of the overall fatality rate hypothesis tested above.
+- InterstateSpeedAvg and Road Quality metrics show weak to no meaningful correlation with fatality rates, indicating a limited direct linear relationship. These factors may influence crash severity or likelihood through more complex mechanisms.
+- InspectionRank demonstrates minimal correlation with fatality metrics, implying that state-level inspection policy stringency does not independently predict fatality rates in this dataset.
+
+### Conclusion
+While correlations suggest potential relationships between variables like seatbelt usage and vehicle count with fatality outcomes, statistical testing shows no significant relationship at the population level across states for the tested hypothesis. The null hypothesis cannot be rejected based on current results. However, some behavioral factors (like alcohol consumption) may still warrant further focused analysis.
+
+This correlation matrix serves as a foundation for identifying relationships worth modeling or visualizing further correlations
 
 ## Breakdown of Fatal Car Accidents by Alcohol Involvement (2022)
 ![newplot (1)](https://github.com/user-attachments/assets/4a8b254e-56c6-4b23-b5d1-18c5f28e187b)
