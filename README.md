@@ -422,4 +422,4 @@ One-Way ANOVA since we are comapring multiple means (we group the interstate spe
 - To better understand which specific speed categories differ, and how large the effect is, further analysis will most likely be needed
 
 **Conclusion:**
-Policymakers and transportation agencies may consider speed limit regulations as a factor that reduces fatal accidents across states.
+Speed limit regulations may be considered as a factor that reduces fatal accidents across states.
