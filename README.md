@@ -69,23 +69,23 @@ Therefore, by analyzing data related to car accidents, I believe we can uncover 
 
 ## Data Preprocessing
 **Data Cleaning**
-- Handle Missing Values by removing them or imputation
-- Standardize units and formats across datasets
+- Handle Missing Values by removing them or by imputation
+- Standardise units and formats across datasets
 
 **Feature Engineering**
 - Create derived variables
-- Categorize Variables
+- Categorise Variables
 
 ## Exploratory Data Analysis
 - **Univariate Analysis:**
-  - Summarize and visualize individual variables
+  - Summarise and visualise individual variables
   - Use histograms, box plots, and summary statistics
 - **Bivariate Analysis:**
   - Explore relationships between fatal car accidents and each independent variables
   - Use scatter plots, correlation matrices, and grouped bar charts
 - **Multivariate Analysis:**
   - Examine interactions between multiple variables
-  - Use heatmaps and grouped visualizations
+  - Use heatmaps and grouped visualisations
 
  # Tools and Technologies <a name="tat"></a>
  - To be able to effectively analyse the data above, I will make use of the following tools:
@@ -110,12 +110,14 @@ Therefore, by analyzing data related to car accidents, I believe we can uncover 
 - Expand the scope to include local-level data for more granular analyses.
 
 # Expected Outcomes <a name="conc"></a>
-<p align="justify"> This project aims to identify key factors influencing fatal car accidents across U.S. states by analyzing datasets on speed limits, alcohol consumption, road quality, vehicle inspections, seat belt usage, and vehicles per capita. Using exploratory data analysis, hypothesis testing, and statistical modelling, it will explore correlations between these variables and fatal accident rates, providing insights that will hopefully aid in improving road safety. </p>
+<p align="justify"> This project aims to identify key factors influencing fatal car accidents across U.S. states by analysing datasets on speed limits, alcohol consumption, road quality, vehicle inspections, seat belt usage, and vehicles per capita. Using exploratory data analysis, hypothesis testing, and statistical modelling, it will explore correlations between these variables and fatal accident rates, providing insights that will hopefully aid in improving road safety. </p>
 
 # Analysis of Research
-## Total Fatal Car Accidents by State (2022–2023)
+Following the compilation of the dataset, we explore the relationships between various factors through visualisation and conduct hypothesis testing across multiple dimensions.
+
+##  otherTotal Fatal Car Accidents by State (2022–2023)
 ![newplot](https://github.com/user-attachments/assets/34324d85-55ba-49e3-9fdd-b15c7f626fc9)
-This map shows the total fatal car accidents in U.S. States (2022-2023) highlighting key regional patterns.
+This map shows the total fatal car accidents in the U.S. States (2022-2023), highlighting key regional patterns.
 - High fatalities are concentrated in large, populous states like Texas, California, and Florida, likely due to more vehicles, longer road networks, and denser traffic.
 - Lower totals appear in smaller states like Vermont, Rhode Island, and Wyoming, which have fewer residents and vehicles.
 - The map shows absolute deaths, not adjusted for population so it doesn’t reflect risk per person or per mile driven.
@@ -148,7 +150,7 @@ General Shape:
 - The distribution appears quite similar: a gradual decline from the highest (46%) to the lowest (18–22%) in both years.
 - No state shows a dramatic spike or drop, suggesting relative consistency in state-level patterns.
 
-### Visual Comparision: Map
+### Visual Comparison: Map
 Geographical Patterns:
 
 - Several Southeastern and Central states experienced notable increases in alcohol-related fatality rates.
@@ -156,16 +158,16 @@ Geographical Patterns:
 - Some Southern and Southwestern states saw moderate decreases, indicating potential improvements.
 - The Northeast displayed mixed trends, with no clear regional pattern.
 
-## Vehicle-Normalized Death Percentage vs. Interstate Speed Limit (2022 & 2023)
-Further comparing the normalized death percentage with other variables, we examine how it relates to the average interstate speed limit across U.S. states. These side-by-side scatter plots represent the relationship for 2022 (left) and 2023 (right).
+## Vehicle-Normalised Death Percentage vs. Interstate Speed Limit (2022 & 2023)
+Further comparing the normalised death percentage with other variables, we examine how it relates to the average interstate speed limit across U.S. states. These side-by-side scatter plots represent the relationship for 2022 (left) and 2023 (right).
 ![Vehicle Normalized Death Per vs Interstate Speed Limit](https://github.com/user-attachments/assets/6aa7d683-99cd-4d36-9622-75ee835b7b27)
 - In both years, the data points are widely scattered across all speed ranges, with no strong upward or downward trend.
-- States with the same speed limits (e.g., 70 mph) show a wide range of fatality percentages, indicating that speed alone is not a strong predictor of vehicle-normalized death rates.
+- States with the same speed limits (e.g., 70 mph) show a wide range of fatality percentages, indicating that speed alone is not a strong predictor of vehicle-normalised death rates.
 - The similarity between the two plots suggests a consistent trend year-over-year, reinforcing the observation that interstate speed limit, when viewed in isolation, does not appear to drive significant changes in fatality percentages.
 - The analysis implies that other factors, such as seatbelt usage, alcohol involvement, inspection policies, and road quality, may have a stronger influence on fatality risk than posted speed limits alone.
 
 ## Death Percentage (2023) vs. Vehicle Inspection Strictness
-This box plot compares the vehicle-normalized fatality percentage in 2023 across states grouped by their level of vehicle inspection strictness, represented by InspectionRank:
+This box plot compares the vehicle-normalised fatality percentage in 2023 across states grouped by their level of vehicle inspection strictness, represented by InspectionRank:
 - 0 = No inspection requirement
 - 0.5 = Single or one-time inspection
 - 1 = Biennial inspections
@@ -198,7 +200,7 @@ A few states with high fatality counts also show low or moderate roughness score
 
 These plots suggest that pavement roughness alone is not a reliable predictor of fatality totals. However, it may still interact with other factors.
 
-## Seatbelt Usage vs. Vehicle-Normalized Death Percentage (2022)
+## Seatbelt Usage vs. Vehicle-Normalised Death Percentage (2022)
 
 This scatter plot examines the relationship between seatbelt usage percentage and the death percentage per registered vehicle for each state in 2022. Each point represents a U.S. state, and the black regression line shows the overall trend.
 
@@ -210,9 +212,9 @@ This scatter plot examines the relationship between seatbelt usage percentage an
 - The trendline slopes downward, suggesting that states with higher seatbelt compliance generally have lower fatality rates relative to the number of vehicles
 - While the correlation is modest and there is variability among states, the general pattern reinforces the role of seatbelt usage as a contributing factor in reducing traffic deaths
 
-This visualization supports the idea that seatbelt may be a influencing factor when it comes to Fatal car accident death rates, even if it is not the only one.
+This visualisation supports the idea that seatbelts may be an influencing factor when it comes to Fatal car accident death rates, even if it is not the only one.
 
-After this viusalisation, lets move on to testing a hypothesis on similar data in the dataset, specifically the "Car accident deaths per 100k (2022)"
+After this visualisation, let's move on to testing a hypothesis on similar data in the dataset, specifically the "Car accident deaths per 100k (2022)"
 
 ## Hypothesis Test: Seatbelt Usage vs. Car Accident Death Rate (2022)
 
@@ -232,7 +234,7 @@ We will first check if both the column variables are normalised through histogra
 - Likely not normally distributed
 **Car Accident Deaths per 100k (2022)**
 - Right-skewed with a heavy tail above 20 deaths per 100k
-- Normal curve does not fit well, especially in the upper range
+- The normal curve does not fit well, especially in the upper range
 - Also likely not normally distributed
 
 **Histogram Observation Conclusion:** Since both variables show deviations from normality, I am deciding to use Spearman correlation to test my hypothesis testing.
@@ -251,7 +253,7 @@ While the correlation is not strong, it is significant at the 5% level, supporti
 
 ## Alcohol Fatalities vs. Excessive Drinking (2022)
 
-This scatter plot explores the relationship between the percentage of adults reporting excessive drinking and the percentage of fatal car accidents involving alcohol across U.S. states in 2022. Even though this is a more straightforward comparison, its still important to confirm that the correlation between these two fcators exists.
+This scatter plot explores the relationship between the percentage of adults reporting excessive drinking and the percentage of fatal car accidents involving alcohol across U.S. states in 2022. Even though this is a more straightforward comparison, its still important to confirm that the correlation between these two factors exists.
 
 ![Alcohol Fatalities vs Excessive Drinking (2022)](https://github.com/user-attachments/assets/954e7ef2-5d8a-4acd-8a24-e3811fdc5c3a)
 
@@ -261,9 +263,9 @@ Observations:
 - States with higher levels of reported excessive drinking tend to experience a greater proportion of alcohol-involved fatal crashes.
 - The trendline's slope and clustering of points along the upward direction suggest a relatively strong relationship.
   
-Lets also test these observations through hypothesis testing.
+Let's also test these observations through hypothesis testing.
 
-## Hypothesis Test: Alcohol Consumption Behaviors vs. Alcohol-Related Fatalities (2022)
+## Hypothesis Test: Alcohol Consumption Behaviours vs. Alcohol-Related Fatalities (2022)
 
 **Hypothesis:**
 
@@ -285,17 +287,17 @@ Spearman Correlation (since we are not sure of the normality of the variables be
 | Excessive Drinking % vs Alcohol Fatalities   | Spearman         | 0.611                       | 0.00000   | Yes          |
 
 ### Interpretation:
-**Ethanol per Capita vs. Alcohol Fatalities %**
+**Ethanol per Capita vs. Alcohol Fatalities% %**
 
 There is a moderate, statistically significant positive correlation between ethanol consumption per capita and the percentage of alcohol-related car fatalities. This suggests that states with higher ethanol use tend to experience more fatal traffic incidents involving alcohol.
 
 **Excessive Drinking % vs. Alcohol Fatalities %**
 
-There is a strong, statistically significant positive correlation between the percentage of people who engage in excessive drinking and alcohol-related traffic fatalities. This also confirms our observations earlier that we dediced from the graph.
+There is a strong, statistically significant positive correlation between the percentage of people who engage in excessive drinking and alcohol-related traffic fatalities. This also confirms our observations earlier that we deduced from the graph.
 
 **Conclusion:**
 
-Both ethanol consumption and excessive drinking rates are positively associated with alcohol-related fatal crashes. These findings support the hypothesis that alcohol-related behaviors are associated with increased alcohol-related car fatalities.
+Both ethanol consumption and excessive drinking rates are positively associated with alcohol-related fatal crashes. These findings support the hypothesis that alcohol-related behaviours are associated with increased alcohol-related car fatalities.
 
 ## Hypothesis Test: Total Automobiles vs. Car Accident Deaths (2022 & 2023)
 
